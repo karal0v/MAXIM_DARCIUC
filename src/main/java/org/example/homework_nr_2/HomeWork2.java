@@ -47,11 +47,32 @@ public class HomeWork2 {
                 System.out.println("Please, put the right number of the month!");
 
         }
+        System.out.println("---------------------------------");
 //n5
         for (int i = 100; i <= 1000; i++) {
             if (i % 5 == 0) {
                 System.out.println(i);
             }
+        }
+        System.out.println("---------------------------------");
+
+//n6
+        float sum = 0;
+        int i = 1;
+        while (i <= 97) {
+            sum += (float) i / (i + 2);
+            i += 2;
+        }
+            System.out.println(sum);
+
+        System.out.println("---------------------------------");
+//bonus
+        String s = "";
+        char z='*';
+        for (int x=1; x <= 9; x++) {
+            s = s + z;
+
+            System.out.println(s);
         }
     }
 }
