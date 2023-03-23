@@ -47,9 +47,16 @@ public class HomeWork2 {
                 System.out.println("Please, put the right number of the month!");
 
         }
-
+//n5
+        for (int i = 100; i <= 1000; i++) {
+            if (i % 5 == 0) {
+                System.out.println(i);
+            }
+        }
     }
 }
+
+
 
 
 
