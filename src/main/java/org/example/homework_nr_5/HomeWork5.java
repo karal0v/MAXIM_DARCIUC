@@ -6,7 +6,7 @@ public class HomeWork5 {
         for (Month month : Month.values()) {
             System.out.println(month);
         }
-        System.out.println("---------------------------------------");
+        System.out.println("--------------------------------------------");
 
         //weeks
         System.out.println(Weekday.MONDAY.isWeekday()); // true
