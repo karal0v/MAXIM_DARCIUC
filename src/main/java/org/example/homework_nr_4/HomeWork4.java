@@ -21,22 +21,15 @@ public class HomeWork4 {
                 {6, 4, 6, 2, 1}
         };
         int count1 = 0;
-        for (int z = 0; z != array2.length; z++)
-            for (int v = 0; v != array2[z].length; v++)
-                if (array2[z][v] % 2 == 0) {
-                    count1++;
-
-                }
-        System.out.println("%2==0: " + count1);
-
-
         int count2 = 0;
         for (int z = 0; z != array2.length; z++)
             for (int v = 0; v != array2[z].length; v++)
-                if (array2[z][v] % 2 != 0) {
-                    count2++;
+                if (array2[z][v] % 2 == 0)
+                    count1++;
 
-                }
+                else count2++;
+        System.out.println("%2==0: " + count1);
+
         System.out.println("%2!=0: " + count2);
 
         System.out.println("------------------------------------------------------");
