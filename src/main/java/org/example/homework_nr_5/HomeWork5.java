@@ -52,8 +52,8 @@ public class HomeWork5 {
 
 
             System.out.println(WeekDay.SATURDAY.isWeekday()); // true
-            System.out.println(WeekDay.SATURDAY.isWeekday()); // false
-            System.out.println(WeekDay.SATURDAY.isHoliday()); // true
+            System.out.println(WeekDay.MONDAY.isHoliday()); // false
+            System.out.println(WeekDay.SUNDAY.isHoliday()); // true
 
             System.out.println("----------------------------------------------");
 
