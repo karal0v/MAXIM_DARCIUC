@@ -27,28 +27,28 @@ public class HomeWork5 {
         for (Month m : Month.values()) {
             System.out.println(m);
 
-        System.out.println("-------------------------------------------");
+            System.out.println("-------------------------------------------");
 
-        enum WeekDay {
-            MONDAY,
-            TUESDAY,
-            WEDNESDAY,
-            THURSDAY,
-            FRIDAY,
-            SATURDAY,
-            SUNDAY;
+            enum WeekDay {
+                MONDAY,
+                TUESDAY,
+                WEDNESDAY,
+                THURSDAY,
+                FRIDAY,
+                SATURDAY,
+                SUNDAY;
 
 
-            public boolean isWeekday() {
-                return this != SATURDAY && this != SUNDAY;
+                public boolean isWeekday() {
+                    return this != SATURDAY && this != SUNDAY;
+                }
+
+                public boolean isHoliday() {
+                    return !isWeekday();
+                }
+
+
             }
-
-            public boolean isHoliday() {
-                return !isWeekday();
-            }
-
-
-        }
 
 
             System.out.println(WeekDay.SATURDAY.isWeekday()); // true
@@ -64,6 +64,15 @@ public class HomeWork5 {
             long longVar = Long.parseLong("987654321987654321");
             double doubleVar = Double.parseDouble("4444.5d");
             float floatVar = Float.parseFloat("2354.56f");
+
+            System.out.println("boolVar = " + boolVar);
+            System.out.println("byteVar = " + byteVar);
+            System.out.println("shortVar = " + shortVar);
+            System.out.println("intVar = " + intVar);
+            System.out.println("longVar = " + longVar);
+            System.out.println("doubleVar = " + doubleVar);
+            System.out.println("floatVar = " + floatVar);
+
 
         }
     }
